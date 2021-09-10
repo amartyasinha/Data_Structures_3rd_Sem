@@ -6,10 +6,9 @@
 using namespace std;
 
 int main() {
-
     int n;
 
-    cout << "It is a Program to Preform Bubble Sort\n\n";
+    cout << "It is a Program to Preform Selection Sort\n\n";
     cout << "Enter number of elements: ";
     cin >> n;
     int array[n];
@@ -29,17 +28,17 @@ int main() {
 
     int temp;
 
-    for (int i = 0; i<n; i++){
-        for (int j = 0; j<n-i; j++){
-            if (array[j]>array[j+1]){
+    for (int i = 0; i<n-1; i++){
+        for (int j = i+1; j<n; j++){
+            if (array[j]<array[i]){
                 temp = array[j];
-                array[j] = array[j+1];
-                array[j+1] = temp;
+                array[j] = array[i];
+                array[i] = temp;
             }
         }
     }
 
-    cout << "\n\nAll elements after Bubble Sort are ";
+    cout << "\n\nAll elements after Selection Sort are ";
     for (int i = 0; i<n; i++){
         if (i!=0) {
             cout << ", ";
@@ -47,4 +46,5 @@ int main() {
         cout << array[i];
     }
     cout << endl;
+    return 0;
 }

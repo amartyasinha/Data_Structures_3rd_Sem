@@ -5,3 +5,4 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(InsertionSortUsingTemplate "InsertionSortUsingTemplate.cpp")
 add_executable(BubbleSort "BubbleSort.cpp")
+add_executable(SelectionSort SelectionSort.cpp)
