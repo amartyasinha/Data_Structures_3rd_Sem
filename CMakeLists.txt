@@ -7,4 +7,4 @@ add_executable(InsertionSortUsingTemplate "InsertionSortUsingTemplate.cpp")
 add_executable(BubbleSort "BubbleSort.cpp")
 add_executable(SelectionSort SelectionSort.cpp)
 
-add_executable(LinkedList LinkedList.cpp)
+add_executable(SinglyLinkedList SinglyLinkedList.cpp)
