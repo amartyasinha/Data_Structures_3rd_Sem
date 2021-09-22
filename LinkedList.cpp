@@ -38,25 +38,15 @@ public:
     }
 
     void creatSLink_List1(int);
-
     void insertAtBeginning(T);
-
     void insertAtPos(int, T);
-
     void removeFromBeginning();
-
     void removeFromPos(int);
-
     Node<T> *search(T);
-
     bool empty(Node<T> *);
-
     int length();
-
     void creatSLink_List2(int);
-
     void concatenationTwoLists();
-
     void display();
 };
 
