@@ -3,8 +3,7 @@ project(Data_Structures_3rd_Sem)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(InsertionSortUsingTemplate "InsertionSortUsingTemplate.cpp")
-add_executable(BubbleSort "BubbleSort.cpp")
+add_executable(BubbleSort BubbleSort.cpp)
 add_executable(SelectionSort SelectionSort.cpp)
 add_executable(LabWork3_SinglyLinkedList LabWork3_SinglyLinkedList.cpp)
 add_executable(LabWork4_DoublyLinkedList LabWork4_DoublyLinkedList.cpp)
@@ -15,3 +14,4 @@ add_executable(LabWork8_QueueUsingCircularArray LabWork8_QueueUsingCircularArray
 add_executable(LabWork9_QueueUsingCircularLL LabWork9_QueueUsingCircularLL.cpp)
 add_executable(LabWork10_DoubleEndedQueueUsingLL LabWork10_DoubleEndedQueueUsingLL.cpp)
 add_executable(LabWork11_BinarySearchTree LabWork11_BinarySearchTree.cpp)
+add_executable(LabWork12_SortingUsingTemplate.cpp LabWork12_SortingUsingTemplate.cpp)
